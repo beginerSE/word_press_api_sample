@@ -7,9 +7,9 @@ from datetime import datetime
 
 
 # WordPress接続情報
-WP_URL = 'https://tkdmjtmj.xsrv.jp'
-WP_USERNAME = 'oruka'
-WP_PASSWORD = 'MFlP KCTz r06F 9FMi fUpV eaQ2'
+WP_URL = ''
+WP_USERNAME = ''
+WP_PASSWORD = ''
 
 
 def generate_html(url):
