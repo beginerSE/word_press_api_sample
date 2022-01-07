@@ -125,10 +125,14 @@ def post_article(status, slug, title, content, category_ids, tag_ids, media_id):
 path, title, send_text = generate_html('http://egg.5ch.net/test/read.cgi/bizplus/1627644504')
 
 # 記事を下書き投稿する
-res = post_article('publish',
+res = post_article('draft',
                    path,
                    title,
                    send_text,
                    category_ids=[2],
                    tag_ids=[5,6],
                    media_id=None)
+
+#解説記事：https://tkstock.site/2021/10/11/python-wordpress-api-%E3%83%96%E3%83%AD%E3%82%B0-%E8%A8%98%E4%BA%8B-%E8%87%AA%E5%8B%95%E6%8A%95%E7%A8%BF/
+
+
